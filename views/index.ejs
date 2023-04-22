@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Empresa de venta de cursos</title>
+	<!-- Agregar enlaces a Bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-h+wrWq3qZZfNb3x6lK/hnnGT+U6oxJU6HL9XJxB5y5d5SWRc5z+zi5g8h5ZGQ73ffLXYfXq3qL8C1fEJPVywEA==" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-4Uwdw4o8NTP1dZvS0kTxBT2gzJyLnQ3C2+I75PgJ1z/PDqYKlJ6+ap1MDJETX6BmU8HzWcQ6bbrx75gJ/a0q3A==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-rS7vXaG/JQ2XR+aC8B1ztE7HYu0GMkNYz7byuYtYHr7F+Zt9NIfgVz5e5d5hiaR5lgeOmLfu5ZGnyf2hGe+d3Q==" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="d-flex justify-content-center">
+		<div class="container">
+			<h1 class="my-4">VENTA DE CURSOS "CURSIN"</h1>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="my-3">Por favor, seleccione el curso que le interesa:</p>
+				</div>
+				<div class="col-md-6">
+					<form action="/pag1" method="POST">
+						<div class="form-group">
+							<select class="form-control" name="curso" id="curso">
+								<option value="JAVA">JAVA</option>
+								<option value="PHP">PHP</option>
+								<option value="NET">.NET</option>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-primary" >Continuar </button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

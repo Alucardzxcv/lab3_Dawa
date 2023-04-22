@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VENTA DE CURSOS "CURSIN</title>
+	<!-- CSS de Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+        <h1>VENTA DE CURSOS "CURSIN</h1>
+		<h2>Lista de Modulos</h2>
+		
+			<form method="post" action="/pag2">
+				<label>
+					<input type="checkbox" name="opciones[]" value="Basico">
+					Basico
+				</label>
+				<label>
+					<input type="checkbox" name="opciones[]" value="Intermedio">
+					Intermedio
+				</label>
+				<label>
+					<input type="checkbox" name="opciones[]" value="Avanzado">
+					Avanzado
+				</label>
+			
+			<button type="submit" class="btn btn-primary">Continuar </button>
+			<input type="hidden" name="curso" value="<%= curso %>">
+			</form>
+		
+	</div>
+	<!-- JS de Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
